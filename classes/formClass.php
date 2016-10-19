@@ -24,7 +24,9 @@ class MyForm {
 		return $this->name;
 	}
 
-	public function set($property , $value){
+	public function set($property , $value=null){
 		$this->$property=$value;
 	}
+
+
 }
